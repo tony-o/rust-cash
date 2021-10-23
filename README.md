@@ -21,7 +21,7 @@ $ sudo ln -s $(pwd)/target/release/cash /usr/local/bin/cash
 
 ## Args
 
-### -n <name>
+### -n \<name\>
 
 This can be used to name the output. Usage with this is similar to above,
 
@@ -31,7 +31,7 @@ $ cash -n test find /
 $ cash -n test | grep 'xyz'
 ```
 
-### -d <dir>
+### -d \<dir\>
 
 If you want to use a special dir for caching, use this flag.  If you want to permanently use this dir then use an alias with your shell.
 
